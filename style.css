@@ -13,6 +13,7 @@ body {
 main {
     display: flex;
     justify-content: center;
+    height: 700px;
 }
 .container {
     width: 85%;
@@ -113,7 +114,7 @@ main {
     line-height: 42px;
     text-align: center;
     color: #070707;
-    margin-top: 7%;
+    margin-top: 17%;
     margin-bottom: 4px;
 }
 .aboutCaption {
@@ -135,8 +136,8 @@ main {
     flex-direction: column;
     background-color: #fff;
 }
-.skills > .headerSlide {
-    margin-top: 4.3%;
+.skillsHeader {
+    margin-top: 65px;
 }
 .skills > .captionSlide{
     margin-top: 2.4%;
@@ -181,6 +182,7 @@ svg {
 }
 .contactsHeader {
     margin-bottom: 20px;
+    margin-top: 0px;
 }
 .contactsText {
     margin: 7px 0;
@@ -224,9 +226,7 @@ svg {
     text-align: center;
     margin-top: 20px;
 }
-.contactsBlock {
-    margin-top: 0;
-}
+
 .skillsBlock {
     height: 393px;
 }
@@ -234,15 +234,6 @@ svg {
  display: none;       
 }
 .burger {
-    width: 375px;
-    height: 812px;
-    position: absolute;
-    top: 0;
-    left: 0;    
-    z-index: 1;
-    background-color: rgb(193, 223, 184);
+    display: none;
 }
-.burgerNav {
-    display: flex;
-    flex-direction: column;
-}
+
