@@ -1,0 +1,81 @@
+@media all and (max-width: 375px) {
+    .navigation, .vector, .languageList{
+        display: none;
+    }
+    .photo {
+        width: 99%;
+        height: 478px;
+        margin: 10.5px 0 0 0;
+        position: relative;
+        left: 2px;
+        background-position: 28%;
+    }
+    .nameLogo {
+        line-height: 45px;
+        margin-top: 7px;
+        font-size: 40px;
+        line-height: 45px;
+        color: black;
+        margin-bottom: 0;
+    }
+    .topic {
+        flex-direction: column;
+        justify-content: center;
+        height: 199px;
+        width: 100%;
+        
+    }
+    .myDescription { 
+        margin: 15px 0; 
+        position: relative;
+        top: 0; left: 1px; 
+        right: 0; bottom: 0;
+    }
+    .about {
+        margin-top: 87px;
+    }
+    .textBlock {
+        width: 316px;
+        height: 334px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .aboutCaption {
+        height: auto;
+        width: 100%;
+    }
+    .panelProgs {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .cardProgs {
+        margin-bottom: 40px;
+        margin-top: 19px;
+    }
+    .contactsBlock {
+        margin-top: 640px;
+        height: auto;
+    }
+    .btn {
+        width: 316px;
+        height: 42px;
+        margin-top: 26px;
+    }
+    .mediaPanel {
+        width: 311px;
+    }
+    .smm {
+        margin-bottom: 43px;
+    }
+    .burgerPoint {
+        display: block;
+        width: 33px;
+        height: 19.19px;
+        position: absolute;
+        left: 310px;
+        top: 29px;
+    }
+    
+}

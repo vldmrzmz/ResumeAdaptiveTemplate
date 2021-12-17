@@ -98,7 +98,7 @@ main {
     background: url(../ResumeAdaptiveTemplate/images/scream.png) no-repeat;
     background-size: cover;
 }
-.about {
+.center {
     height: 503px;
     width: 100%;
     margin-top: 103px;
@@ -128,11 +128,12 @@ main {
     color: #070707;
     margin-bottom: 50px;
 }
-.skills {
+.block {
     height: 503px;
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-color: #fff;
 }
 .skills > .headerSlide {
     margin-top: 4.3%;
@@ -144,18 +145,104 @@ main {
     line-height: 22px;
     text-align: center;
     color: #070707;
+    margin-top: 52px;
+    margin-bottom: 78px;
 
 }
 .panelProgs{
     height: 35%;
     width: 100%;
-    background-color: aquamarine;
     display: flex;
     justify-content: center;
 }
 .cardProgs {
     width: 166.46px;
-    height: 205.37px;
+    height: 130%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px;
+}
+.starPanel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+svg {
+    margin: 0 2.9px;
+}
+.nameProgrs {
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+.contactsHeader {
+    margin-bottom: 20px;
+}
+.contactsText {
+    margin: 7px 0;
+}
+.serviceSaption {
+    height: auto;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 180.5px;
+    height: 41.81px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 16.3px;
+    font-family: Gilroy-Bold;
+    text-decoration: none;
+    margin-top: 50px;
+    transition: .1s linear;
+}
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(224, 200, 63);
+}
+.mediaPanel {
+    width: 450.18px;
+    padding: 0;
+    height: 40.74px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 42px;
+}
+.smm {
+    color: #828282;
+    font-size: 13px;
+    font-family: Gilroy-Medium;
+    text-align: center;
+    margin-top: 20px;
+}
+.contactsBlock {
+    margin-top: 0;
+}
+.skillsBlock {
+    height: 393px;
+}
+.burgerPoint {
+ display: none;       
+}
+.burger {
+    width: 375px;
+    height: 812px;
+    position: absolute;
+    top: 0;
+    left: 0;    
+    z-index: 1;
+    background-color: rgb(193, 223, 184);
+}
+.burgerNav {
     display: flex;
     flex-direction: column;
 }
