@@ -79,6 +79,28 @@
         z-index: 1;
         background-color: rgb(255, 255, 255);
     }
+
+    .burgerPoint {
+        display: block;
+        width: 33px;
+        height: 19.19px;
+        position: absolute;
+        left: 310px;
+        top: 29px;
+    }
+    .burgerNav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 56px;
+        margin-left: 26px;
+    }
+    .burgerNav a {
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        line-height: 42px;
+        margin-bottom: 45px;
+        font-size: 28px;
+    }
     .burgerPoint {
         display: block;
         width: 33px;
