@@ -7,6 +7,7 @@
     <title>Resume Zomarev</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="modal.js">
 </head>
 <body>
     <main>
@@ -22,13 +23,19 @@
             <div class="intro">
                 <div class="topic">
                     <!-- BURGER -->
-                    <a href="" class="burgerPoint"><svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <a href="" class="burgerPoint" data-modal-open><svg width="33" height="20" viewBox="0 0 33 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="33" height="3.83721" fill="black"/>
                         <rect y="7.67383" width="33" height="3.83721" fill="black"/>
                         <rect y="15.3496" width="33" height="3.83721" fill="black"/>
                         </svg>
-                        </a>
-                    <div class="burger">
+                    </a>
+                    <div class="burger" data-modal>
+                        <a href="">
+                            <svg class="cross data-modal-close" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="2.68701" width="27.3715" height="3.8" transform="rotate(45 2.68701 0)" fill="#828282"/>
+                            <rect x="0.831299" y="19.5566" width="27.3715" height="3.8" transform="rotate(-45 0.831299 19.5566)" fill="#828282"/>
+                            </svg>  
+                        </a>  
                         <nav class="burgerNav">
                             <a href="" class="navText">Home</a>
                             <a href="" class="navText">About me</a>
@@ -36,6 +43,11 @@
                             <a href="" class="navText">Portfolio</a>
                             <a href="" class="navText">Contacts</a>
                         </nav>
+                        <ul class="languageList">
+                            <li><a href="" class="language">Eng</a></li>
+                            <li><a href="" class="language dividerLang">|</a></li>
+                            <li><a href="" class="language">Ua</a></li>
+                        <ul>
                     </div>
                     <!-- =========== -->
                     <h1 class="nameLogo">Zomariev Volodymyr</h1>
@@ -53,18 +65,17 @@
     <div class="center about">
         <div class="textBlock">
             <h3 class="headerSlide">About me</h3>
-            <div class="aboutCaption">
                 <p class="captionSlide">Hi, I'm Vova – UX/UI designer from Severodonetsk.<br>
                     I'm interested in web and everything connected with it.</p>
                 <p class="captionSlide">I'm studying at courses 
-                "Web and mobile design interfaces" in K-Fund School.</p>
-                <p class="captionSlide">Ready to implement excellent projects 
+                "Web and mobile design<br> interfaces" in K-Fund School.</p>
+                <p class="captionSlide">Ready to implement excellent projects<br>
                     with wonderful people.</p>
         </div>
     </div>
     </div>
     <div class="block skillsBlock">
-        <h3 class="headerSlide">Skills</h3>
+        <h3 class="skillsHeader headerSlide">Skills</h3>
         <p class="captionSlide">I work in such programs as</p>
         <div class="panelProgs">
             <div class="cardProgs">
@@ -168,7 +179,7 @@
             
         </div>
     </div>  
-    <div class="contactsBlock center block">
+    <div class="center block">
         <h3 class="contactsHeader headerSlide">Contacts</h3>
         <div class="aboutCaption serviceSaption">
             <p class="contactsText captionSlide">Want to new more or just chat?</p>
