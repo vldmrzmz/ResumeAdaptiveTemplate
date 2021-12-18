@@ -7,7 +7,6 @@
     <title>Resume Zomarev</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
-    <link rel="stylesheet" href="modal.js">
 </head>
 <body>
     <main>
@@ -29,19 +28,13 @@
                         <rect y="15.3496" width="33" height="3.83721" fill="black"/>
                         </svg>
                     </a>
-                    <div class="burger" data-modal>
+                    <div class="burger is-hidden" data-modal>
                         <a href="">
                             <svg class="cross data-modal-close" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="2.68701" width="27.3715" height="3.8" transform="rotate(45 2.68701 0)" fill="#828282"/>
                             <rect x="0.831299" y="19.5566" width="27.3715" height="3.8" transform="rotate(-45 0.831299 19.5566)" fill="#828282"/>
                             </svg>  
                         </a>  
-                    <div class="burger">
-                        <svg class="cross" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="2.68701" width="27.3715" height="3.8" transform="rotate(45 2.68701 0)" fill="#828282"/>
-                            <rect x="0.831299" y="19.5566" width="27.3715" height="3.8" transform="rotate(-45 0.831299 19.5566)" fill="#828282"/>
-                        </svg>    
-
                         <nav class="burgerNav">
                             <a href="" class="navText">Home</a>
                             <a href="" class="navText">About me</a>
@@ -185,7 +178,7 @@
             
         </div>
     </div>  
-    <div class="center block">
+    <div class="center block contactsBlock">
         <h3 class="contactsHeader headerSlide">Contacts</h3>
         <div class="aboutCaption serviceSaption">
             <p class="contactsText captionSlide">Want to new more or just chat?</p>
@@ -220,5 +213,6 @@
         </ul>
         <p class="smm">Like me on <br>LinkedIn, Instagram, Behance, Dribble</p>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
